@@ -1,0 +1,61 @@
+{
+    "name": "@jabberwocky-labs/eslint-config-node",
+    "version": "0.0.1",
+    "license": "MIT",
+    "sideEffects": false,
+    "main": "index.js",
+    "prettier": "@jabberwocky-labs/prettier-config",
+    "files": [],
+    "scripts": {
+        "format": "yarn prettier . --write",
+        "deps": "yarn upgrade-interactive"
+    },
+    "dependencies": {
+        "@types/eslint": "8.4.10",
+        "@types/eslint-config-prettier": "6.11.0",
+        "@typescript-eslint/eslint-plugin": "5.48.2",
+        "@typescript-eslint/parser": "5.48.2",
+        "eslint": "8.32.0",
+        "eslint-config-airbnb": "19.0.4",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-config-airbnb-typescript": "17.0.0",
+        "eslint-config-prettier": "8.6.0",
+        "eslint-import-resolver-typescript": "3.5.3",
+        "eslint-plugin-etc": "2.0.2",
+        "eslint-plugin-import": "2.27.5",
+        "eslint-plugin-no-explicit-type-exports": "0.12.1",
+        "eslint-plugin-prettier": "4.2.1",
+        "eslint-plugin-simple-import-sort": "9.0.0",
+        "eslint-plugin-unused-imports": "2.0.0",
+        "prettier": "2.8.3",
+        "typescript": "4.9.4"
+    },
+    "devDependencies": {
+        "@jabberwocky-labs/prettier-config": "https://github.com/jabberwocky-labs/prettier-config"
+    },
+    "packageManager": "yarn@3.3.1",
+    "repository": "github:@jabberwocky-labs/eslint-config-node",
+    "homepage": "https://github.com/jabberwocky-labs/eslint-config-node#readme",
+    "keywords": [
+        "eslint",
+        "eslint-config",
+        "jabberwocky",
+        "jabberwocky-db",
+        "lint",
+        "node"
+    ],
+    "author": {
+        "name": "Zachary Raineri",
+        "email": "zach@jabberwockylabs.com"
+    },
+    "contributors": [
+        {
+            "name": "Zachary Raineri",
+            "email": "zach@jabberwockylabs.com"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/jabberwocky-labs/eslint-config-node/issues",
+        "email": "zach@jabberwockylabs.com"
+    }
+}
