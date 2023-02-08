@@ -65,12 +65,6 @@ module.exports = {
         'etc/no-t': 0,
         'etc/no-implicit-any-catch': 0,
         'no-negated-condition': 0,
-        "object-curly-newline": ["error", {
-            "ObjectExpression": "always",
-            "ObjectPattern": { "multiline": true },
-            "ImportDeclaration": "never",
-            "ExportDeclaration": { "multiline": true, "minProperties": 3 }
-        }],
         '@typescript-eslint/no-unsafe-call': 0,
         '@typescript-eslint/no-unsafe-assignment': 0,
         '@typescript-eslint/no-unsafe-return': 0,
